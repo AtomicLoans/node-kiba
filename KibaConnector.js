@@ -4,7 +4,7 @@ const express = require('express');
 
 const RemoteKibaProvider = require('./RemoteKibaProvider');
 
-const DEFAULT_PORT = 3333;
+const DEFAULT_PORT = 3334;
 
 class KibaConnector {
   constructor(options) {
