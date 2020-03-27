@@ -1,6 +1,6 @@
 {
   "name": "node-kiba",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Connect to Kiba from node.js",
   "author": "Mattthew Black <matthew@atomicloans.io>",
   "license": "MIT",

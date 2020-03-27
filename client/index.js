@@ -58,7 +58,7 @@ function sleep(ms) {
   if (!(await checkUnlocked())) {
     return addLog('Please unlock Kiba first and then reload this page');
   }
-  const socket = new WebSocket('ws://localhost:3333');
+  const socket = new WebSocket('ws://localhost:3334');
   const reply = (action, requestId, payload) => socket.send(JSON.stringify({ action, requestId, payload }));
   socket.onmessage = msg => {
     let message;

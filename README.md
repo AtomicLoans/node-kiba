@@ -18,12 +18,12 @@ yarn add node-kiba
 
 const KibaConnector = require('node-kiba');
 const connector = new KibaConnector({
-  port: 3333, // this is the default port
+  port: 3334, // this is the default port
   onConnect() { console.log('Kiba client connected') }, // Function to run when Kiba is connected (optional)
 });
 
 connector.start().then(() => {
-  // Now go to http://localhost:3333 in your Kiba enabled web browser.
+  // Now go to http://localhost:3334 in your Kiba enabled web browser.
   const uniweb3 = connector.getProvider()
   // Use uniweb3 as you would normally do. Sign transactions in the browser.
 });
