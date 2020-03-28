@@ -22,7 +22,7 @@ class RemoteKibaProvider {
     const requestId = this.constructor.generateRequestId();
 
     // Set the payload to allow reassignment
-    const payload = { method: _type, params: [_opts] }
+    const payload = { method: _type, params: _opts }
 
     return this._connector.request('execute', requestId, payload, 'executed')
   }
