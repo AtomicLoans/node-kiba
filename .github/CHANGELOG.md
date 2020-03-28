@@ -1,5 +1,8 @@
 ## node-kiba changelog
 
+### [ [>](https://github.com/AtomicLoans/node-kiba/tree/v1.0.2) ] 1.0.2 / 27.04.2020
+* Fix passing opts
+
 ### [ [>](https://github.com/AtomicLoans/node-kiba/tree/v1.0.1) ] 1.0.1 / 27.04.2020
 * Change websocket port to 3334
 
